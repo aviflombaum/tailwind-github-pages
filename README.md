@@ -1,15 +1,19 @@
-# shadcn/docs
+# TailwindCSS Github Pages Starter
 
-A tailwindcss documentation theme based on the shadcn documentation but with no dependencies, including shadcn.
+A tailwindcss starter kit for Github Pages. No other dependencies besides `npm`.
 
 ## Usage
 
-`npm install`
+`npm run install`
 
-`npm watch`
+`npm run start`
 
-`npm serve`
+## Deploy
 
-## Style
+`npm run deploy`
 
-The content within the `<article>` tag is purposely styled to be compatible with output from a markdown renderer.
+## FAQ
+
+**Is that really it?**
+
+Yes.
