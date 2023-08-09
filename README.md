@@ -17,3 +17,7 @@ A tailwindcss starter kit for Github Pages. No other dependencies besides `npm`.
 **Is that really it?**
 
 Yes.
+
+## Who made this?
+
+[@aviflombaum](https://twitter.com/jamesinaxx)
