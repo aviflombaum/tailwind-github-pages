@@ -9,7 +9,7 @@
     "tailwindcss": "^3.3.3"
   },
   "scripts": {
-    "watch": "npm run build --watch",
+    "watch": "tailwindcss -i ./stylesheets/application.tailwind.css -o ./stylesheets/application.css --watch",
     "build": "tailwindcss -i ./stylesheets/application.tailwind.css -o ./stylesheets/application.css",
     "serve": "npx http-server . --no-cache -c-1 -p 3000",
     "start": "npm run serve & npm run watch",
