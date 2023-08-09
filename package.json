@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/forms": "^0.5.4",
+    "@tailwindcss/typography": "^0.5.9",
+    "http-server": "^14.1.1",
+    "prettier": "^3.0.0",
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "watch": "tailwindcss -i ./stylesheets/application.tailwind.css -o ./stylesheets/application.css --watch",
+    "build": "tailwindcss -i ./stylesheets/application.tailwind.css -o ./stylesheets/application.css",
+    "serve": "npx http-server . --no-cache -c-1 -p 3000",
+    "start": "npm run serve & npm run watch",
+    "deploy": "npm run build && git add stylesheets/application.css && git commit -m 'Built Tailwind and Deploying' && git push"
+  }
+}
